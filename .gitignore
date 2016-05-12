@@ -24,6 +24,8 @@ xcuserdata
 *.xcscmblueprint
 iflyMSC.framework
 updatelog.txt
+baiduNaviSDK.bundle
+
 
 ## Obj-C/Swift specific
 *.hmap
