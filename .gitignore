@@ -22,6 +22,8 @@ xcuserdata
 *.moved-aside
 *.xcuserstate
 *.xcscmblueprint
+iflyMSC.framework
+updatelog.txt
 
 ## Obj-C/Swift specific
 *.hmap
@@ -34,7 +36,6 @@ xcuserdata
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 
 Pods/
-../iflyMSC.framework
 
 # Carthage
 #
