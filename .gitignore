@@ -25,7 +25,7 @@ xcuserdata
 iflyMSC.framework
 updatelog.txt
 baiduNaviSDK.bundle
-
+libbaiduNaviSDK.a
 
 ## Obj-C/Swift specific
 *.hmap
