@@ -1,0 +1,31 @@
+PODS:
+  - AMapNavi (1.5.0)
+  - BaiduMapKit (2.10.2)
+  - iOS_Category (0.0.1)
+  - KeyChain-UDID (0.0.1)
+  - YwenKit (0.4.6)
+
+DEPENDENCIES:
+  - AMapNavi (~> 1.5.0)
+  - BaiduMapKit (~> 2.10.2)
+  - iOS_Category
+  - KeyChain-UDID
+  - YwenKit (from `https://github.com/yaliyingwy/YwenKit.git`)
+
+EXTERNAL SOURCES:
+  YwenKit:
+    :git: https://github.com/yaliyingwy/YwenKit.git
+
+CHECKOUT OPTIONS:
+  YwenKit:
+    :commit: 2078f1fa9b496ab9f67fd04156855a7878ae6143
+    :git: https://github.com/yaliyingwy/YwenKit.git
+
+SPEC CHECKSUMS:
+  AMapNavi: 605e2dc3bad11fb2649ba4df61b82ab0da389d3f
+  BaiduMapKit: b1706a062597c70ec62a0cca93212cba1d3017e1
+  iOS_Category: 93bb18172e5f79f80911cb15a56738115940ee62
+  KeyChain-UDID: 6c147ad17dacf24c66d9e9ec1c777c67b8618461
+  YwenKit: f32cfa987b23cd09edb42d859f925dc2c01093e3
+
+COCOAPODS: 0.39.0
