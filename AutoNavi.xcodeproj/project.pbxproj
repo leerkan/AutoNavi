@@ -29,6 +29,7 @@
 		5B1699C51CE456E700100D75 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1699A91CE456E700100D75 /* CJSONSerializer.m */; };
 		5B1699C61CE456E700100D75 /* CSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1699AB1CE456E700100D75 /* CSerializedJSONData.m */; };
 		5B1699C71CE456E700100D75 /* updatelog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5B1699B71CE456E700100D75 /* updatelog.txt */; };
+		5B1699C91CE4579800100D75 /* baiduNaviSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5B1699C81CE4579800100D75 /* baiduNaviSDK.bundle */; };
 		6284EE2263CBC10DA8FC4FF4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AFF562066EE88708009F04 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,7 @@
 		5B1699B51CE456E700100D75 /* BNStrategyManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNStrategyManagerProtocol.h; sourceTree = "<group>"; };
 		5B1699B61CE456E700100D75 /* BNUIManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNUIManagerProtocol.h; sourceTree = "<group>"; };
 		5B1699B71CE456E700100D75 /* updatelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = updatelog.txt; sourceTree = "<group>"; };
+		5B1699C81CE4579800100D75 /* baiduNaviSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = baiduNaviSDK.bundle; sourceTree = "<group>"; };
 		83AFF562066EE88708009F04 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE68EA82519017CD87809EEA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,6 +167,7 @@
 		5B1699871CE456E700100D75 /* BaiduNaviSDK */ = {
 			isa = PBXGroup;
 			children = (
+				5B1699C81CE4579800100D75 /* baiduNaviSDK.bundle */,
 				5B1699881CE456E700100D75 /* BaiduStatistics */,
 				5B1699AD1CE456E700100D75 /* inc */,
 				5B1699B71CE456E700100D75 /* updatelog.txt */,
@@ -320,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1699C71CE456E700100D75 /* updatelog.txt in Resources */,
+				5B1699C91CE4579800100D75 /* baiduNaviSDK.bundle in Resources */,
 				5B1699861CE4568000100D75 /* updatelog.txt in Resources */,
 				5B1699781CE4519600100D75 /* Assets.xcassets in Resources */,
 				5B16997B1CE4519600100D75 /* LaunchScreen.storyboard in Resources */,
